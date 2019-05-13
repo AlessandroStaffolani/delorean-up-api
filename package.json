@@ -6,7 +6,7 @@
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ale8193/dolorean-up-api"
+    "url": "https://github.com/ale8193/delorean-up-api"
   },
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha --recursive"
