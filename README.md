@@ -22,6 +22,24 @@ Install it via:
 npm install delorean-up-api --save
 ```
 
+### Webpack Configuration
+
+Using Webpack you may encounter the following error: "Module not found: Error:
+Cannot resolve module", most certainly you should disable AMD loader. Add/merge
+the following section to your webpack config:
+
+```javascript
+module: {
+  rules: [
+    {
+      parser: {
+        amd: false
+      }
+    }
+  ]
+}
+```
+
 ## Getting Started
 
 Please follow the [installation](#installation) instruction and execute the following JS code:
